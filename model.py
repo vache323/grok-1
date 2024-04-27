@@ -1396,3 +1396,4 @@ class Transformer(hk.Module):
             embeddings=h,
             memory=Memory(layers=kv_memories),
         )
+
